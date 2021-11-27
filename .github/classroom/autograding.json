@@ -9,6 +9,26 @@
       "comparison": "included",
       "timeout": 10,
       "points": 4
+    },
+    {
+      "name": "Check build workflow present",
+      "setup": "",
+      "run": "ls .github/workflows/build-workflow.yml",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Check env",
+      "setup": "",
+      "run": "env",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
