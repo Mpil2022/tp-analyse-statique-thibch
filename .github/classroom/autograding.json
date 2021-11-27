@@ -9,16 +9,6 @@
       "comparison": "included",
       "timeout": 10,
       "points": 4
-    },
-    {
-      "name": "Clean build",
-      "setup": "",
-      "run": "mvn clean package",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 4
     }
   ]
 }
