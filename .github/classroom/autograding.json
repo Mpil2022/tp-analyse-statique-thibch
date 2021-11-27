@@ -22,7 +22,7 @@
     },
     {
       "name": "Check status",
-      "setup": "echo \"Checking in ${{ github.server.url }}\"",
+      "setup": "",
       "run": "URL=$(git remote get-url origin); curl -v $URL/actions/workflows/build-workflow.yml/badge.svg | grep passing",
       "input": "",
       "output": "",
