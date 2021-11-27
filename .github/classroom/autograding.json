@@ -23,7 +23,7 @@
     {
       "name": "Check status",
       "setup": "echo 'Checking in $GITHUB_REPOSITORY'",
-      "run": "curl $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/actions/workflows/build-workflow.yml/badge.svg | grep passing",
+      "run": "curl -vv $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/actions/workflows/build-workflow.yml/badge.svg | grep passing",
       "input": "",
       "output": "",
       "comparison": "included",
