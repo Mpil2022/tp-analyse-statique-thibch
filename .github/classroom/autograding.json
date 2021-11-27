@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "name": "Check submodule is present",
+      "setup": "",
+      "run": "ls spring-petclinic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
       "name": "Clean build",
       "setup": "",
       "run": "mvn clean package",
@@ -8,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 5
+      "points": 4
     }
   ]
 }
