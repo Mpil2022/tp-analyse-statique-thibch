@@ -22,8 +22,8 @@
     },
     {
       "name": "Check status",
-      "setup": "echo \"Checking in $GITHUB_REPOSITORY\"",
-      "run": "curl -vv $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/actions/workflows/build-workflow.yml/badge.svg | grep passing",
+      "setup": "echo \"Checking in ${{ github.server.url }}\"",
+      "run": "curl -v ${{ github.server.url }}/${{ github.repository }}/actions/actions/workflows/build-workflow.yml/badge.svg | grep passing",
       "input": "",
       "output": "",
       "comparison": "included",
