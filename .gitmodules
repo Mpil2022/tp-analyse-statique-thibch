@@ -1,0 +1,3 @@
+[submodule "sonarcloud-github-action-samples"]
+	path = sonarcloud-github-action-samples
+	url = https://github.com/SonarSource/sonarcloud-github-action-samples.git
