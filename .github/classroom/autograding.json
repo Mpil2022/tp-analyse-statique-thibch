@@ -22,8 +22,8 @@
     },
     {
       "name": "Check status",
-      "setup": "",
-      "run": "echo \"Checking in $GITHUB_REPOSITORY\" && curl https://github.com/$GITHUB_REPOSITORY/tp-analyse-statique-clementcolne/actions/workflows/build-workflow.yml/badge.svg | grep passing",
+      "setup": "echo 'Checking in $GITHUB_REPOSITORY'",
+      "run": "curl $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/actions/workflows/build-workflow.yml/badge.svg | grep passing",
       "input": "",
       "output": "",
       "comparison": "included",
