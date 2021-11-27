@@ -21,14 +21,14 @@
       "points": 4
     },
     {
-      "name": "Check env",
+      "name": "Check status",
       "setup": "",
-      "run": "env",
+      "run": "curl https://github.com/$GITHUB_REPOSITORY/tp-analyse-statique-clementcolne/actions/workflows/build-workflow.yml/badge.svg | grep passing",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 4
     }
   ]
 }
